@@ -126,6 +126,16 @@ nav a.active::before {
   cursor: pointer;
   display: none;
 }
+@media only screen and (max-width: 1500px) {
+  .nav_container {
+    width: 85%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .nav_container {
+    width: 90%;
+  }
+}
 @media (max-width: 1000px) {
   .nav_container .nav_items {
     position: fixed; /* Keep fixed position for mobile */
