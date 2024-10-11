@@ -672,6 +672,16 @@ img {
 .form button:hover {
   background-color: #f80000ef;
 }
+@media only screen and (max-width: 1500px) {
+  .contact_container {
+    width: 85%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .contact_container {
+    width: 90%;
+  }
+}
 @media only screen and (max-width: 1000px) {
   .form input {
     flex-basis: calc(100% - 55px);
@@ -819,6 +829,16 @@ footer a {
     order: 1;
   }
 }
+@media only screen and (max-width: 1500px) {
+  .footer_container {
+    width: 85%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .footer_container {
+    width: 90%;
+  }
+}
 @media only screen and (max-width: 800px) {
   .footer_sec_1 {
     flex-basis: 100%;
@@ -829,5 +849,11 @@ footer a {
   .footer_sec_2 {
     flex-basis: 100%;
     order: 0;
+  }
+  .sub input {
+    flex-basis: 100%;
+  }
+  .sub button {
+    flex-basis: 100%;
   }
 }
